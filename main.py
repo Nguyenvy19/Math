@@ -31,7 +31,7 @@ with st.container():
         """ ##### Data description:
         \n - This dataset contains the data representing the spending habits of <span style='color:green'>**1000**</span> students across various demographic groups and academic backgrounds.
         \n - In our report, we plotted <span style='color:green'>**10**</span> charts: Column charts,  Bar charts, Box plots, Violin chart, Ratio chart, Density chart.
-        \n - Link: https://www.kaggle.com/datasets/sumanthnimmagadda/student-spending-dataset """,
+         """,
         unsafe_allow_html=True
     )
     st.markdown(
