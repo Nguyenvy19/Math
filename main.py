@@ -20,7 +20,7 @@ with st.container():
     st.title("Students speeding")
 
 # OUR DATASET
-url = "https://www.kaggle.com/datasets/nobelfoundation/nobel-laureates?resource=download"
+url = "https://www.kaggle.com/datasets/sumanthnimmagadda/student-spending-dataset"
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
