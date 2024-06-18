@@ -54,7 +54,7 @@ st.divider()
 
 # Add Sidebar
 st.sidebar.write('**:bulb: Reporting to Dr. Tan Duc Do**')
-st.sidebar.write('**:bulb: Group 2 Members:**')
+st.sidebar.write('**:bulb: Group 9 Members:**')
 
 # Add content to the main area
 with st.sidebar:
