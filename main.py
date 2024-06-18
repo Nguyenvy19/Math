@@ -330,6 +330,8 @@ with tab5:
     st.pyplot(plt.gcf())
 
     # Create an expander for the explanation content
+    st.markdown("<h3 style='text-align: center;'>Explanation</h3>", unsafe_allow_html=True)
+
     with st.expander(""):
         st.markdown("""
             <font size="4">
@@ -339,7 +341,6 @@ At the forefront of the plot, the highest peaks symbolize the influx of freshmen
             </font>
             """, unsafe_allow_html=True)
 
-    st.markdown("<h3 style='text-align: center;'>Explanation</h3>", unsafe_allow_html=True)
 
     # Display the "Conclusion" title
     st.markdown("<h3 style='text-align: center;'>Conclusion</h3>", unsafe_allow_html=True)
@@ -372,6 +373,8 @@ with tab6:
     # Display the plot in Streamlit
     st.pyplot(plt.gcf())
     # Create an expander for the explanation content
+    st.markdown("<h3 style='text-align: center;'>Explanation</h3>", unsafe_allow_html=True)
+
     with st.expander(""):
         st.markdown("""
             <font size="4">
@@ -381,7 +384,6 @@ Conversely, psychology students exhibit the lowest expenditure range, with expen
             </font>
             """, unsafe_allow_html=True)
 
-    st.markdown("<h3 style='text-align: center;'>Explanation</h3>", unsafe_allow_html=True)
 
     # Display the "Conclusion" title
     st.markdown("<h3 style='text-align: center;'>Conclusion</h3>", unsafe_allow_html=True)
@@ -405,6 +407,8 @@ with tab7:
 
     st.pyplot(plt.gcf())
     # Create an expander for the explanation content
+    st.markdown("<h3 style='text-align: center;'>Explanation</h3>", unsafe_allow_html=True)
+
     with st.expander(""):
         st.markdown("""
             <font size="4">
@@ -412,7 +416,6 @@ with tab7:
             </font>
             """, unsafe_allow_html=True)
 
-    st.markdown("<h3 style='text-align: center;'>Explanation</h3>", unsafe_allow_html=True)
 
     # Display the "Conclusion" title
     st.markdown("<h3 style='text-align: center;'>Conclusion</h3>", unsafe_allow_html=True)
